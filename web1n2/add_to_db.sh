@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Variables
-MYSQL_ROOT_PASSWORD="your_mysql_root_password"
+MYSQL_ROOT_PASSWORD="(password)"
 DATABASE_NAME="tyrell_corp"
 TABLE_NAME="nexus6"
+MYSQL_USER="holberton_user"
 
 # MySQL commands
 CREATE_DATABASE_CMD="CREATE DATABASE IF NOT EXISTS ${DATABASE_NAME};"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-MYSQL_ROOT_PASSWORD="your_mysql_root_password"
+MYSQL_ROOT_PASSWORD="(password)"
 
 # MySQL command to show all users
 MYSQL_CMD="SELECT User, Host FROM mysql.user;"
